@@ -1,0 +1,15 @@
+# Build context hygiene. Keep pyproject.toml, uv.lock, README.md (hatchling reads
+# it), and src/ — exclude everything else.
+
+.venv/
+.git/
+.gitignore
+.env
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+*.pyc
+dist/
+tests/
+.agents/
+.DS_Store
