@@ -1,0 +1,20 @@
+{
+  "name": "anansi-local",
+  "interface": {
+    "displayName": "Anansi (local)"
+  },
+  "plugins": [
+    {
+      "name": "anansi-data",
+      "source": {
+        "source": "local",
+        "path": "./dist/anansi-data"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    }
+  ]
+}
