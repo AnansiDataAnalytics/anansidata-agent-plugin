@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "anansi": {
+      "type": "http",
+      "url": "https://mcp.anansidata.com/mcp"
+    }
+  }
+}

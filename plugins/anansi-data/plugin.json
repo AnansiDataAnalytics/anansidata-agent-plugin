@@ -5,7 +5,7 @@
   "description": "Read-only access to Anansi's harmonized macroeconomic data for 240+ countries.",
   "author": { "name": "Anansi Data", "url": "https://www.anansidata.com" },
   "homepage": "https://www.anansidata.com",
-  "repository": "https://github.com/anansi-data/anansidata-agent-plugin",
+  "repository": "https://github.com/thekernelkiller/anansidata-agent-plugin",
   "license": "proprietary",
   "keywords": ["economics", "macroeconomic", "macro", "data", "anansi"],
   "extensions": {

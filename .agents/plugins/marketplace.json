@@ -1,14 +1,14 @@
 {
-  "name": "anansi-local",
+  "name": "anansi",
   "interface": {
-    "displayName": "Anansi (local)"
+    "displayName": "Anansi Data"
   },
   "plugins": [
     {
       "name": "anansi-data",
       "source": {
         "source": "local",
-        "path": "./dist/anansi-data"
+        "path": "./plugins/anansi-data"
       },
       "policy": {
         "installation": "AVAILABLE",
