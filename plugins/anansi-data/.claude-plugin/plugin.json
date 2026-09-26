@@ -1,7 +1,7 @@
 {
   "name": "anansi-data",
   "displayName": "Anansi Data",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Read-only access to Anansi's harmonized macroeconomic data for 240+ countries.",
   "author": {
     "name": "Anansi Data",
