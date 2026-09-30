@@ -19,13 +19,14 @@ coverage before interpreting the ranking.
 
 1. Choose a comparable measure: ratios, rates, growth, or per-capita indicators
    are generally more meaningful than raw LCU levels across countries.
-2. Use `rank_countries` or `chart_rank_countries`. Keep
-   `include_forecasts=false` unless the user explicitly asks for an outlook.
+2. Use `rank_countries`. Keep `include_forecasts=false` unless the user
+   explicitly asks for an outlook.
 3. Verify dates. “Latest” may differ across countries, so disclose material
    as-of differences and use a fixed period when strict comparability matters.
 4. Exclude or clearly label aggregates and historical entities when the user
    asked for countries.
-5. Prefer the Anansi ranking UI over a Markdown table.
+5. When a visual adds value, use the host-native visualization capability for
+   the ranking. Otherwise use a compact table for a short exact-value result.
 
 Interpret clusters, outliers, regional patterns, and coverage bias. State the
 unit, period, actual/forecast policy, population of ranked economies, and why

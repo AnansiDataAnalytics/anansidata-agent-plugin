@@ -24,8 +24,8 @@ entities or country breaks explicitly.
    than relying on a single full-sample CAGR.
 3. Use CAGR, growth, and rebased paths for comparable trajectories. Treat
    historical entities and country breaks explicitly.
-4. Use `chart_computed_series` or `chart_compare` for convergence and regime
-   comparisons.
+4. When a visual adds value, use the host-native visualization capability for
+   convergence and regime comparisons.
 5. Distinguish descriptive association from explanations that require evidence
    outside Anansi.
 

@@ -4,7 +4,7 @@
     "name": "Anansi Data",
     "url": "https://www.anansidata.com"
   },
-  "description": "Analytical workflows and interactive charts for Anansi macroeconomic data.",
+  "description": "Analytical workflows for Anansi macroeconomic data.",
   "plugins": [
     {
       "name": "anansi-data",

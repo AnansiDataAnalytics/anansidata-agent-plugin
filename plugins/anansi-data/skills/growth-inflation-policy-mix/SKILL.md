@@ -25,8 +25,9 @@ points, and calculate output growth with Anansi rather than model arithmetic.
    contemporaneous movements.
 4. Use percentage-point changes for inflation and interest rates. Use
    `compute_series` for GDP growth rather than estimating it in prose.
-5. Render component trends with Anansi charts and interpret the configuration:
-   accelerating/decelerating growth, inflation direction, and policy response.
+5. When a visual adds value, render the component trends with the host-native
+   visualization capability and interpret the configuration: accelerating or
+   decelerating growth, inflation direction, and policy response.
 
 Conclude with the regime classification, evidence supporting it, conflicting
 signals, forecast-versus-actual distinctions, and limitations.

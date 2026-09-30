@@ -1,8 +1,8 @@
 {
   "name": "anansi-data",
   "displayName": "Anansi Data",
-  "version": "0.2.0",
-  "description": "Analytical workflows and interactive charts for Anansi's harmonized macroeconomic data.",
+  "version": "0.2.1",
+  "description": "Analytical workflows for Anansi's harmonized macroeconomic data.",
   "author": {
     "name": "Anansi Data",
     "url": "https://www.anansidata.com"
