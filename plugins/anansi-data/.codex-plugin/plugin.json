@@ -1,0 +1,37 @@
+{
+  "name": "anansi-data",
+  "version": "0.2.0+codex.20260930072846",
+  "description": "Analysis-first workflows for GMD macroeconomic and WED energy data using the Anansi Data MCP App.",
+  "author": {
+    "name": "Anansi Data",
+    "url": "https://www.anansidata.com"
+  },
+  "homepage": "https://www.anansidata.com",
+  "repository": "https://github.com/thekernelkiller/anansidata-agent-plugin",
+  "license": "proprietary",
+  "keywords": [
+    "macroeconomics",
+    "energy",
+    "data-analysis",
+    "mcp-app"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Anansi Data",
+    "shortDescription": "Analyze global macroeconomic and energy data",
+    "longDescription": "Analysis-first workflows for GMD macroeconomic and WED energy data, with bundled interactive charts from the Anansi Data MCP App.",
+    "developerName": "Anansi Data",
+    "category": "Finance",
+    "capabilities": [
+      "Read",
+      "Interactive"
+    ],
+    "websiteURL": "https://www.anansidata.com",
+    "defaultPrompt": [
+      "Assess Nigeria's current macro outlook.",
+      "Compare India's growth and inflation with peers.",
+      "Analyze long-run crisis recoveries using GMD."
+    ]
+  }
+}

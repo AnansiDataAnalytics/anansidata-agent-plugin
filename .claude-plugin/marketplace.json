@@ -4,11 +4,12 @@
     "name": "Anansi Data",
     "url": "https://www.anansidata.com"
   },
+  "description": "Analytical workflows and interactive charts for Anansi macroeconomic data.",
   "plugins": [
     {
       "name": "anansi-data",
       "source": "./plugins/anansi-data",
-      "description": "Read-only access to Anansi's harmonized macroeconomic data for 240+ countries.",
+      "description": "Analyze and visualize harmonized macroeconomic data for 240+ countries.",
       "category": "Finance"
     }
   ]

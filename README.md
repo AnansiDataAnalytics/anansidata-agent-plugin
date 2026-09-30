@@ -1,7 +1,8 @@
 # Anansi Data — Agent Plugin
 
-Read-only access to Anansi's harmonized macroeconomic data — GDP, inflation,
-unemployment, government debt, interest rates, and more — across 240+ countries.
+Analytical workflows and interactive charts for Anansi's harmonized
+macroeconomic data — GDP, inflation, unemployment, government debt, interest
+rates, crises, and more — across 240+ countries.
 
 The plugin connects to the Anansi MCP server at `https://mcp.anansidata.com/mcp`
 and works in **Claude Code** and **Codex / ChatGPT**.
@@ -44,12 +45,31 @@ plugins/anansi-data/
 ├── mcp.json                         portable MCP server entry
 ├── .claude-plugin/plugin.json       Claude Code manifest
 ├── .mcp.json                        Claude Code MCP server entry
-└── skills/                          macro-analysis, country-comparison, data-caveats
+├── references/                      shared analysis and dataset-selection guidance
+└── skills/                          nine goal-oriented data-analysis workflows
 ```
 
 The two manifest/MCP pairs are the native layouts for each host and point at the
 same hosted server. There is no bundled server, so both declare the remote
 `streamable-http` endpoint only.
+
+The Git marketplace package intentionally uses the portable MCP declaration for
+OpenAI. It does not include an `.app.json` registered-App mapping: that mapping
+requires the `plugin_asdk_app...` identifier created during a later ChatGPT
+developer-mode registration and publishing workflow. The MCP still exposes its
+interactive MCP Apps chart tools to compatible hosts.
+
+## Included skills
+
+- Country macro brief
+- Country benchmark
+- Indicator trend analysis
+- Growth, inflation, and policy mix
+- Fiscal and external vulnerability
+- Long-run development
+- Crisis and regime analysis
+- Macro ranking and screening
+- Anansi data dictionary
 
 ## Links
 

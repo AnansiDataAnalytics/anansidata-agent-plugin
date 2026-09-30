@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "anansi-data",
-  "version": "0.1.0",
-  "description": "Read-only access to Anansi's harmonized macroeconomic data for 240+ countries.",
+  "version": "0.2.0",
+  "description": "Analytical workflows and interactive charts for Anansi's harmonized macroeconomic data.",
   "author": { "name": "Anansi Data", "url": "https://www.anansidata.com" },
   "homepage": "https://www.anansidata.com",
   "repository": "https://github.com/thekernelkiller/anansidata-agent-plugin",
@@ -12,16 +12,16 @@
     "com.openai": {
       "interface": {
         "displayName": "Anansi Data",
-        "shortDescription": "Harmonized macroeconomic data for 240+ countries.",
-        "longDescription": "Query Anansi's harmonized macroeconomic data — GDP, inflation, unemployment, government debt, interest rates, and more — across 240+ countries and 50 years. Compare countries, build country profiles, rank economies, and chart trends.",
+        "shortDescription": "Analyze and visualize macroeconomic data for 240+ countries.",
+        "longDescription": "Analyze Anansi's WED and Global Macro Database with guided workflows for country briefs, peer benchmarks, trends, policy mix, vulnerabilities, long-run development, crises, and country screening. Interactive Anansi charts keep actuals, forecasts, units, and coverage visible.",
         "developerName": "Anansi Data",
         "category": "Finance",
-        "capabilities": ["Read"],
+        "capabilities": ["Read", "Interactive"],
         "websiteURL": "https://www.anansidata.com",
         "defaultPrompt": [
-          "Compare inflation in India and the United States over the last 20 years.",
-          "Show me Nigeria's macroeconomic profile.",
-          "Rank countries by government debt as a share of GDP."
+          "Assess Nigeria's current macro outlook.",
+          "Compare India's growth and inflation with peers.",
+          "Analyze long-run crisis recoveries using GMD."
         ]
       }
     }
