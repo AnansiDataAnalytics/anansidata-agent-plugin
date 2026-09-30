@@ -27,3 +27,5 @@ forecast labels, and check coverage before interpreting a path.
 Report the latest actual, any forecast separately, the main turning points, the
 magnitude of change, and the relevant caveats. Do not dump the full time series.
 Prefer Anansi `chart_*` tools over another visualization tool when supported.
+Keep follow-ups on the same indicator unless the user explicitly changes scope;
+do not add contextual indicators merely to make the analysis broader.

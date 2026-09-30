@@ -29,3 +29,5 @@ economic underperformance.
 
 Prefer Anansi `chart_*` tools over another visualization tool when they support
 the result. Do not repeat the chart as a large Markdown table.
+Keep follow-ups on the benchmark metric already chosen unless the user asks to
+change or broaden it.

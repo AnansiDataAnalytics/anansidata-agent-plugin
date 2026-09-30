@@ -27,3 +27,4 @@ coverage before interpreting the ranking.
 Interpret clusters, outliers, regional patterns, and coverage bias. State the
 unit, period, actual/forecast policy, population of ranked economies, and why
 the indicator is or is not a sufficient screen.
+Keep follow-ups on the ranked metric unless the user explicitly changes scope.
