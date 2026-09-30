@@ -1,7 +1,7 @@
 {
   "name": "anansi-data",
-  "version": "0.2.0+codex.20260930072846",
-  "description": "Analysis-first workflows for GMD macroeconomic and WED energy data using the Anansi Data MCP App.",
+  "version": "0.2.1+codex.20260930161557",
+  "description": "Analysis-first workflows for GMD and WED data using the Anansi Data MCP server.",
   "author": {
     "name": "Anansi Data",
     "url": "https://www.anansidata.com"
@@ -13,19 +13,18 @@
     "macroeconomics",
     "energy",
     "data-analysis",
-    "mcp-app"
+    "native-visualization"
   ],
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Anansi Data",
     "shortDescription": "Analyze global macroeconomic and energy data",
-    "longDescription": "Analysis-first workflows for GMD macroeconomic and WED energy data, with bundled interactive charts from the Anansi Data MCP App.",
+    "longDescription": "Analysis-first workflows for GMD and WED data, using host-native visualization when it materially improves the answer.",
     "developerName": "Anansi Data",
     "category": "Finance",
     "capabilities": [
-      "Read",
-      "Interactive"
+      "Read"
     ],
     "websiteURL": "https://www.anansidata.com",
     "defaultPrompt": [

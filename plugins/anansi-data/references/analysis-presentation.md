@@ -13,25 +13,33 @@ Apply these practices whenever an Anansi skill retrieves or presents data.
 - Surface material limitations—forecast status, incomparable units, uneven dates,
   sparse coverage, or methodological breaks—without adding generic disclaimers.
 
-## Use the Anansi App as the primary display
+## Use the host's native visualization capability
 
-- Prefer an Anansi `chart_*` tool for a trend, comparison, ranking, profile, or
-  computed series that it supports. Do not switch to another visualization tool for
-  the same job.
-- Use an Anansi-rendered table when the task depends on exact values, lookup, or a
-  compact comparison that is clearer in rows than in a chart.
-- After rendering, interpret the visual in prose. Do not reproduce its complete data
-  as a Markdown table in chat.
-- Treat the Anansi App and the prose as one answer. Complete discovery and analysis
-  before the final chart call, use one chart for the central finding, and open the
-  prose with a direct reference such as “The chart shows …”. Do not introduce a new,
-  disconnected report after the visual.
-- The chart tool may appear before the prose while the host streams the response.
-  Keep the visual self-contained through its title, period, unit, forecast status,
-  coverage note, and concise callouts; reserve the prose for interpretation.
-- If no Anansi UI tool supports the requested display, return a concise textual
-  analysis and use another visualization capability only when it materially improves
-  the answer.
+- Use Anansi tools for retrieval, comparison, ranking, coverage checks, and
+  deterministic calculations. They return the analysis-ready data; they do not
+  render charts.
+- When a visual materially improves the answer and the host has a native
+  visualization capability, use it. In ChatGPT or Codex, prefer Visualize when it is
+  available. In Claude, prefer its native custom visual or chart capability.
+- Treat an explicit request to chart, plot, show, or visualize the result as sufficient
+  reason to use the native capability when it is available. Do not answer such a
+  request with only a Markdown table.
+- Choose the visual from the analytical question: a line chart for change over time,
+  a bar or dot plot for a country comparison or ranking, and small multiples when
+  unlike units or scales would make a combined axis misleading.
+- Build the visual only after resolving indicators, aligning dates, checking units,
+  and identifying actual and forecast observations. Pass human-readable labels and
+  the returned values to the host visualization; never ask it to retrieve or invent
+  Anansi data.
+- Keep actuals and forecasts visually distinct, label axes and units, show the data
+  period, and disclose material coverage differences. Do not combine incompatible
+  units on one axis merely to fit everything into one chart.
+- Treat the visual and prose as one answer. Lead with the economic conclusion,
+  include one decision-relevant visual by default, and interpret it without repeating
+  the full dataset as a Markdown table.
+- If the native visualization capability is unavailable or a visual would add little,
+  answer in prose. Use a compact Markdown table only when exact lookup values or a
+  small ranking are genuinely clearer in rows.
 
 ## Preserve meaning
 

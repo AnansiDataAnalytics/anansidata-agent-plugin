@@ -22,8 +22,8 @@ forecast labels, and check coverage before interpreting a path.
    meaningful turn. Respect the user's requested window.
 3. Use deterministic growth, moving average, CAGR, z-score, or rebasing only
    when it answers the stated question.
-4. Use `chart_series` for the original path or `chart_computed_series` for a
-   transformation. Preserve the actual/forecast boundary.
+4. When a visual adds value, use the host-native visualization capability for
+   the original or transformed path. Preserve the actual/forecast boundary.
 5. Identify peaks, troughs, acceleration, deceleration, persistence, and breaks
    only from returned data.
 
