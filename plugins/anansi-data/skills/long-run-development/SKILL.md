@@ -5,6 +5,9 @@ description: Analyze long-run growth, living standards, convergence, and structu
 
 # Long-run development
 
+Read [analysis and presentation practices](../../references/analysis-presentation.md)
+and [dataset selection](../../references/dataset-selection.md) before beginning.
+
 Use for multi-decade growth, convergence, living-standard, structural-break, and
 economic-era comparisons. Default to `dataset="gmd"`.
 
@@ -28,5 +31,3 @@ entities or country breaks explicitly.
 
 Report subperiod results, convergence or divergence, structural breaks,
 cross-country context, and coverage limitations.
-Prefer Anansi `chart_*` tools over another visualization tool when supported;
-do not duplicate the charts as a large Markdown table.

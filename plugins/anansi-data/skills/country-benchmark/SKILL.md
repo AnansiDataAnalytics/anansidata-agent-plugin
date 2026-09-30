@@ -5,6 +5,9 @@ description: Compare countries or benchmark one economy against peers using comp
 
 # Country benchmark
 
+Read [analysis and presentation practices](../../references/analysis-presentation.md)
+and [dataset selection](../../references/dataset-selection.md) before beginning.
+
 Use for peer comparisons, convergence questions, relative performance, and
 requests to compare a small set of economies.
 
@@ -26,8 +29,3 @@ guessing, preserve forecast labels, and check coverage before comparing.
 Explain leaders and laggards, whether gaps are widening or narrowing, important
 turning points, and coverage asymmetries. Never interpret a shorter series as
 economic underperformance.
-
-Prefer Anansi `chart_*` tools over another visualization tool when they support
-the result. Do not repeat the chart as a large Markdown table.
-Keep follow-ups on the benchmark metric already chosen unless the user asks to
-change or broaden it.

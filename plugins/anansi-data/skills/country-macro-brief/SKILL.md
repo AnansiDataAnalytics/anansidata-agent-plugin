@@ -5,6 +5,9 @@ description: Build an evidence-led macroeconomic brief or outlook for one countr
 
 # Country macro brief
 
+Read [analysis and presentation practices](../../references/analysis-presentation.md)
+and [dataset selection](../../references/dataset-selection.md) before beginning.
+
 Use this for country snapshots, economic health checks, outlooks, and requests
 such as “what is happening in Nigeria's economy?”
 
@@ -28,6 +31,3 @@ points, and label forecasts and coverage gaps.
 Finish with the central assessment, 3–5 supporting findings, principal risks,
 and material data caveats. Do not issue investment advice or claim causal
 drivers that the data alone cannot establish.
-
-Prefer Anansi `chart_*` tools over another visualization tool when they support
-the result. Do not repeat the rendered dashboard as a large Markdown table.

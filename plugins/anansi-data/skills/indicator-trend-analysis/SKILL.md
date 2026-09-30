@@ -5,6 +5,9 @@ description: Analyze the trajectory, turning points, forecasts, and anomalies of
 
 # Indicator trend analysis
 
+Read [analysis and presentation practices](../../references/analysis-presentation.md)
+and [dataset selection](../../references/dataset-selection.md) before beginning.
+
 Use when the user asks how inflation, GDP, debt, unemployment, an exchange rate,
 or another macro indicator has evolved.
 
@@ -26,6 +29,3 @@ forecast labels, and check coverage before interpreting a path.
 
 Report the latest actual, any forecast separately, the main turning points, the
 magnitude of change, and the relevant caveats. Do not dump the full time series.
-Prefer Anansi `chart_*` tools over another visualization tool when supported.
-Keep follow-ups on the same indicator unless the user explicitly changes scope;
-do not add contextual indicators merely to make the analysis broader.

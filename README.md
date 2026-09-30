@@ -45,7 +45,8 @@ plugins/anansi-data/
 ├── mcp.json                         portable MCP server entry
 ├── .claude-plugin/plugin.json       Claude Code manifest
 ├── .mcp.json                        Claude Code MCP server entry
-└── skills/                          eight goal-oriented macro analysis workflows
+├── references/                      shared analysis and dataset-selection guidance
+└── skills/                          nine goal-oriented data-analysis workflows
 ```
 
 The two manifest/MCP pairs are the native layouts for each host and point at the
@@ -68,6 +69,7 @@ interactive MCP Apps chart tools to compatible hosts.
 - Long-run development
 - Crisis and regime analysis
 - Macro ranking and screening
+- Anansi data dictionary
 
 ## Links
 
