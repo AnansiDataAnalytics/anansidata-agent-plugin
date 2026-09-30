@@ -23,8 +23,8 @@ from continuous outcome measures.
    adjacent or repeated, avoid presenting overlapping windows as independent.
 3. Compare relevant real GDP, inflation, debt, exchange-rate, fiscal, or external
    series before and after the event.
-4. Use Anansi charts for the event flag and selected outcomes; use deterministic
-   calculations for changes.
+4. Use deterministic calculations for changes. When a visual adds value, use
+   the host-native visualization capability for the event flag and selected outcomes.
 5. Do not infer that the flagged crisis caused every coincident macro movement.
 
 State the event dates, pre/post changes, recovery pattern, comparison baseline,

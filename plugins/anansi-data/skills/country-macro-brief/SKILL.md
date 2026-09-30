@@ -25,8 +25,9 @@ points, and label forecasts and coverage gaps.
    and monetary conditions; omit dimensions without evidence.
 4. Distinguish latest actuals from the forecast tail and surface conflicting
    signals rather than forcing a single narrative.
-5. Use `chart_country_profile`, then `chart_series` for the one or two trends
-   that explain the conclusion. Do not recreate the dashboard elsewhere.
+5. When a visual adds value, use the host-native visualization capability for
+   the one or two trends that best explain the conclusion. Do not chart every
+   profile metric by default.
 
 Finish with the central assessment, 3–5 supporting findings, principal risks,
 and material data caveats. Do not issue investment advice or claim causal

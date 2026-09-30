@@ -1,6 +1,6 @@
 # Anansi Data — Agent Plugin
 
-Analytical workflows and interactive charts for Anansi's harmonized
+Analytical workflows for Anansi's harmonized
 macroeconomic data — GDP, inflation, unemployment, government debt, interest
 rates, crises, and more — across 240+ countries.
 
@@ -53,11 +53,10 @@ The two manifest/MCP pairs are the native layouts for each host and point at the
 same hosted server. There is no bundled server, so both declare the remote
 `streamable-http` endpoint only.
 
-The Git marketplace package intentionally uses the portable MCP declaration for
-OpenAI. It does not include an `.app.json` registered-App mapping: that mapping
-requires the `plugin_asdk_app...` identifier created during a later ChatGPT
-developer-mode registration and publishing workflow. The MCP still exposes its
-interactive MCP Apps chart tools to compatible hosts.
+The MCP supplies structured, analysis-ready data and deterministic calculations;
+it does not ship custom chart UI. The skills guide ChatGPT and Codex to use
+Visualize when available, and Claude to use its native custom visuals, whenever
+a visual materially improves the answer.
 
 ## Included skills
 

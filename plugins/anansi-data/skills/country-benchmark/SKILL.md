@@ -24,7 +24,8 @@ guessing, preserve forecast labels, and check coverage before comparing.
 3. Use `compare_countries` with `alignment="available"` to inspect coverage.
    Switch to `common` only when an identical window is analytically necessary.
 4. Use `compute_series` for growth, CAGR, spreads, rebasing, or correlation.
-5. Present the result with `chart_compare` or `chart_computed_series`.
+5. When a visual adds value, use the host-native visualization capability for
+   the aligned comparison or computed result.
 
 Explain leaders and laggards, whether gaps are widening or narrowing, important
 turning points, and coverage asymmetries. Never interpret a shorter series as
