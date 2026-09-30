@@ -5,6 +5,9 @@ description: Study banking, currency, sovereign-debt, inflation, or policy regim
 
 # Crisis and regime analysis
 
+Read [analysis and presentation practices](../../references/analysis-presentation.md)
+and [dataset selection](../../references/dataset-selection.md) before beginning.
+
 Use for historical crisis timelines, pre/post-crisis comparisons, repeated-crisis
 patterns, and macroeconomic regime analysis. Default to `dataset="gmd"`.
 
@@ -26,5 +29,3 @@ from continuous outcome measures.
 
 State the event dates, pre/post changes, recovery pattern, comparison baseline,
 and missing institutional context.
-Prefer Anansi `chart_*` tools over another visualization tool when supported;
-do not duplicate the charts as a large Markdown table.

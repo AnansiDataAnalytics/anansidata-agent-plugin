@@ -5,6 +5,9 @@ description: Rank or screen countries by macroeconomic indicators and interpret 
 
 # Macro ranking and screening
 
+Read [analysis and presentation practices](../../references/analysis-presentation.md)
+and [dataset selection](../../references/dataset-selection.md) before beginning.
+
 Use for country rankings, top/bottom lists, regional screens, and identifying
 outliers. A leaderboard is evidence to interpret, not the final analysis.
 
@@ -27,4 +30,3 @@ coverage before interpreting the ranking.
 Interpret clusters, outliers, regional patterns, and coverage bias. State the
 unit, period, actual/forecast policy, population of ranked economies, and why
 the indicator is or is not a sufficient screen.
-Keep follow-ups on the ranked metric unless the user explicitly changes scope.

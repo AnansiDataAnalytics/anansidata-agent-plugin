@@ -5,6 +5,9 @@ description: Interpret Anansi WED series codes, variable definitions, frequencie
 
 # Anansi data dictionary
 
+Read [analysis and presentation practices](../../references/analysis-presentation.md)
+before presenting resolved series.
+
 Use when the user asks what a WED code, variable, or unit means, or whenever a
 result would otherwise expose opaque series codes as its primary labels.
 
@@ -17,7 +20,3 @@ Present `country — variable (frequency)` as the main label and show the series
 code only secondarily when it helps reproducibility. For a list of codes, group
 shared variable, frequency, and unit once instead of repeating them for every
 country.
-
-Keep follow-ups scoped to the variable already under discussion. Do not expand
-a nominal-GDP question into real GDP, inflation, debt, or other indicators
-unless the user asks or the additional variable is indispensable to the answer.

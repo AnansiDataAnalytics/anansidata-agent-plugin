@@ -1,6 +1,6 @@
 {
   "name": "anansi-data",
-  "version": "0.2.0",
+  "version": "0.2.0+codex.20260930072846",
   "description": "Analysis-first workflows for GMD macroeconomic and WED energy data using the Anansi Data MCP App.",
   "author": {
     "name": "Anansi Data",

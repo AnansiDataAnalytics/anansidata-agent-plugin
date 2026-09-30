@@ -5,6 +5,9 @@ description: Assess the interaction of growth, inflation, and monetary policy fo
 
 # Growth, inflation, and policy mix
 
+Read [analysis and presentation practices](../../references/analysis-presentation.md)
+and [dataset selection](../../references/dataset-selection.md) before beginning.
+
 Use for overheating, stagflation, disinflation, soft-landing, and monetary-policy
 stance questions.
 
@@ -27,5 +30,3 @@ points, and calculate output growth with Anansi rather than model arithmetic.
 
 Conclude with the regime classification, evidence supporting it, conflicting
 signals, forecast-versus-actual distinctions, and limitations.
-Prefer Anansi `chart_*` tools over another visualization tool when supported;
-do not duplicate the charts as a large Markdown table.
