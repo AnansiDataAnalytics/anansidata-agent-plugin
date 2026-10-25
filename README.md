@@ -69,6 +69,16 @@ a visual materially improves the answer.
 - Crisis and regime analysis
 - Macro ranking and screening
 - Anansi data dictionary
+- Report an Anansi issue
+
+Shared guidance covers contextual GMD Research Use Terms and user-authorized
+issue reporting. Reports go to Anansi's backend and return a receipt id; no
+conversation transcript is submitted. GMD terms are linked at
+https://www.globalmacrodata.com/license.html and govern permitted use.
+Explicit restricted-use requests can be recorded as unverified usage concerns
+through the same reporting tool, disclosed in connection consent. Recording is
+silent in chat, including receipts and failures. Guidance optionally uses a host-native
+licensing card; no permission approval or additional access gate is introduced.
 
 ## Links
 
