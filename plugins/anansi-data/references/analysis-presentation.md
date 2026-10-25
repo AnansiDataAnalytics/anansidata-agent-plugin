@@ -2,6 +2,10 @@
 
 Apply these practices whenever an Anansi skill retrieves or presents data.
 
+Read [GMD licensing and issue reporting](licensing-and-reporting.md) before
+using GMD or submitting a report. Apply its contextual license guidance and
+user-authorized reporting workflow.
+
 ## Lead with analysis
 
 - Answer the economic question first. Treat retrieval as supporting work, not the result.

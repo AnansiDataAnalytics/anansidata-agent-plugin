@@ -16,7 +16,7 @@
         "longDescription": "Analyze Anansi's WED and Global Macro Database with guided workflows for country briefs, peer benchmarks, trends, policy mix, vulnerabilities, long-run development, crises, and country screening. Skills guide compatible hosts to visualize analysis-ready Anansi results when useful.",
         "developerName": "Anansi Data",
         "category": "Finance",
-        "capabilities": ["Read"],
+        "capabilities": ["Read", "Write"],
         "websiteURL": "https://www.anansidata.com",
         "defaultPrompt": [
           "Assess Nigeria's current macro outlook.",
